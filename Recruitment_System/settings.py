@@ -89,9 +89,9 @@ WSGI_APPLICATION = 'Recruitment_System.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "recruitmentsystem",
+        'NAME': "recruitment_system",
         "USER": "root",
-        "PASSWORD": "nmb19720",
+        "PASSWORD": "mysql",
         "HOST": "127.0.0.1"
     }
 }
@@ -160,9 +160,9 @@ CKEDITOR_CONFIGS = {
     }
 }
 
-EMAIL_HOST = 'smtp.qq.com'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST= 'smtp.163.com'
+EMAIL_PORT= 25
+EMAIL_HOST_USER = 'zxf1242410479@163.com'
+EMAIL_HOST_PASSWORD = 'qazwsxedc123'
 EMAIL_USE_TLS = False
-EMAIL_FROM = ''
+EMAIL_FROM = 'Recruitment_System <zxf1242410479@163.com>'
